@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: large;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding: 30px;
+}
+
+.div1 {
+    pos
+}
+
+.menu {
+    display: flex;
+    background-color: yellow;
+    font-size: x-large;
+    justify-content: space-around;
+}
+
+.logo {
+    position: fixed;
+    top: 30px;
+    right: 10px;
+}
+
+.subtitle {
+    font-size: 3rem;
+}
+
+.jumbo {
+    background-image: url("itmanager.jpg");
+    background-size: cover;
+    height: 50vh;
+}
+
+.lower {
+    background-color: orange;
+    display: flex;
+}
+
+.content {
+    font-size: small;
+}
+
+.content2 {
+    font-size: large;
+}
