@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .qc {
+        background-color: red;
+        height: 300px;
+        width: 500px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    .b {
+        background-color: blue;
+        height: 150px;
+        width: 150px;
+        margin: 5px;
+        position: relative;
+    }
+    
+    .ib {
+        background-color: green;
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+    
+    .c {
+        background-color: greenyellow;
+        height: 350px;
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    .gc {
+        display: flex;
+    }
+    
+    .ic {
+        background-color: black;
+        height: 100px;
+        width: 100px;
+    }
+    
+    .ur {
+        background-color: grey;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        bottom: -50px;
+        right: -50px;
+    }
+</style>
+
+<body>
+    <div class="gc">
+        <div class="c">
+            <div class="ic"></div>
+            <div class="ur"></div>
+        </div>
+        <div class="qc">
+            <div class="b">
+                <div class="ib"></div>
+            </div>
+            <div class="b">
+                <div class="ib"></div>
+            </div>
+            <div class="b">
+                <div class="ib"></div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
