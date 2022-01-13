@@ -56,7 +56,7 @@ console.log("das Ergebnis von " + d + " und " + e + " ist " + result4);
 
 //03 Aufgabe zu Variablen 
 
-let banana = "Bananaf afd asdf xy";
+let banana = "Banana";
 let apple = "Apple";
 let bananaPricePerKilo = 2.14;
 let applePricePerKilo = 3.42;
@@ -90,3 +90,5 @@ console.log("Eine Tonne Äpfel kosten " + Ergebnis9);
 
 Ergebnis10 = bananaPricePerKilo * 1000
 console.log("Eine Tonne Bananen kosten " + Ergebnis10);
+
+//Aufgabe 04 Schleifen
