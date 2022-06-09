@@ -1,6 +1,14 @@
-var min = 5,
-    max = 10;
+let output = 0;
 
-function rand(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+for (let count = 10; count > 0; count--) {
+
+    let random = Math.random() * 100;
+    let randomAsInteger = Math.round(random);
+    console.log(randomAsInteger)
+    output = output + randomAsInteger
+
 }
+
+
+
+console.log("Die Summe der 10 Zufallszahlen ist " + output);
